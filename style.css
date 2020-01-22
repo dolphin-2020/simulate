@@ -1,0 +1,117 @@
+#header{
+  position: relative;
+  width:100%;
+  height:100px;
+  background-color: deepskyblue;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#headText{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:white;
+  font-size:40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin:auto;
+}
+
+#main{
+  width:80%; 
+  height:500px;
+  text-align: center;
+  margin:0 auto;
+}
+
+#container{
+  
+  margin:15px auto;
+}
+
+.input{
+  width:80%;
+  height:40px;
+  font-size:20px;
+}
+
+#delete{
+  float:right;
+  width:35px;
+  height:35px;
+}
+
+.info{
+  width:80%;
+  height:40px;
+  border:1px solid gray;
+  margin:auto;
+  font-size:19px;
+  
+}
+
+.submit{
+  position: relative;
+  width:80%;
+  height:40px;
+  border:1px solid gray;
+  margin:auto;
+}
+
+#post{
+  position: absolute;
+  width:120px;
+  float:right;
+  height:30px;
+  background-color:deepskyblue;
+  top:50%;
+  left:100%;
+  transform:translate(-110%,-50%);
+  border-radius: 5px;
+  color:white;
+}
+
+.demo1{
+	float: left;
+	bottom: 15px;
+	width: 0px;
+	height: 0px;
+	border:20px solid;
+	margin: 40px;
+	margin-right: 0px;
+	border-right-color: lightgray;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
+.demo2{
+	float: left;
+	width: 0px;
+	height: 0px;
+	border:60px solid;
+	border-color: lightgray;
+	border-left-width: 622px;
+	border-radius: 15px;
+}
+
+#comment{
+  width:80%;
+  height:120px;
+
+  margin:auto;
+}
+#time{
+  float:left;
+  font-size:15px;
+}
+
+#pretendImg{
+  width:120px;
+  height:120px;
+  background-color: gray;
+}
+
+#commentContent{
+  float:right;
+}
