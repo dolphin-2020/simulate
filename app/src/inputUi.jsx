@@ -1,11 +1,13 @@
-import React from 'react'
+import React,{Component} from 'react'
 
-export default function InputUi(){
-  return (
-   <form id="container">
-   <input id="info" type='text' placeholder="Add You Status"/>
-   <input id="input" type="text" placeholder="Message goes here"/>
-   <div id="submit"><button id="post">Post</button></div>
- </form>
-  )
-}
+export default class InputUi extends Component{
+  render(){
+    return (
+      <form id="container">
+      <input id="info" type='text' placeholder="Add You Status" onChange={this.props.addStatus}/>
+      <input id="input" type="text" placeholder="Message goes here" onChange={this.props.messageInput}/>
+      <div id="submit"><button id="post" onClick={this.props.submit}>Post</button></div>
+    </form>
+     )
+   }
+  }
